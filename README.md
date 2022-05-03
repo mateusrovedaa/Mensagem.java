@@ -3,7 +3,7 @@ Arquivo utilizado para imprimir mensagens para o usuário. A sua utilização po
 
 # Modo de uso
 
-Para utilizar, basta colocar o arquivo `Mensagem.java` na mesma pasta do seu projeto e utilizar as opções disponíveis.
+Para utilizar, basta colocar o arquivo [Mensagem.java](Mensagem.java) na mesma pasta do seu projeto e utilizar as opções disponíveis.
 
 ![image](https://user-images.githubusercontent.com/22747307/166493406-b262906a-fa14-47bf-97c7-bea05d39e7b9.png)
 
