@@ -17,6 +17,14 @@ public class Mensagem {
         JOptionPane.showMessageDialog(null, mensagem, titulo, tipo);
     }
 
+    /**
+     * Método privado para geração de mensagens de confirmação
+     *
+     * @param titulo mensagem a ser exibida no topo da tela
+     * @param mensagem mensagem a ser exibida no conteudo da caixa de dialogo
+     * @param tipo padrãoo de mensagens <b>JOptionPane<b>
+     * @param botoes[] descrição dos botões
+     */
     private static int mensagemConfirmacao(String titulo, String mensagem, int tipo, Object botoes[]) {
         int escolha = JOptionPane.showOptionDialog(null, mensagem, titulo,
                 JOptionPane.DEFAULT_OPTION, tipo, 
