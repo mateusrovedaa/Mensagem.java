@@ -11,7 +11,7 @@ public class Mensagem {
      *
      * @param titulo mensagem a ser exibida no topo da tela
      * @param mensagem mensagem a ser exibida no conteudo da caixa de dialogo
-     * @param tipo padrãoo de mensagens <b>JOptionPane<b>
+     * @param tipo padrão de mensagens <b>JOptionPane<b>
      */
     private static void mensagem(String titulo, String mensagem, int tipo) {
         JOptionPane.showMessageDialog(null, mensagem, titulo, tipo);
@@ -22,7 +22,7 @@ public class Mensagem {
      *
      * @param titulo mensagem a ser exibida no topo da tela
      * @param mensagem mensagem a ser exibida no conteudo da caixa de dialogo
-     * @param tipo padrãoo de mensagens <b>JOptionPane<b>
+     * @param tipo padrão de mensagens <b>JOptionPane<b>
      * @param botoes[] descrição dos botões
      */
     private static int mensagemConfirmacao(String titulo, String mensagem, int tipo, Object botoes[]) {
